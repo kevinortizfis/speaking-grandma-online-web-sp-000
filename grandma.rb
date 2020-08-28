@@ -2,7 +2,8 @@
 def speak_to_grandma(speech)
   until speech == speech.upcase
     "HUH?! SPEAK UP, SONNY!"
-  end
+  return
+  "I LOVE YOU TOO PUMPKIN!"
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
