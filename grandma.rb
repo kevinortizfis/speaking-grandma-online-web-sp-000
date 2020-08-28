@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(string)
-  if string.all == string.upcase
+  if string.all == string
     puts "I LOVE YOU TOO PUMPKIN"
   end
 end
