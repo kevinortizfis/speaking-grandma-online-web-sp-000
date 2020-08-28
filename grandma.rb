@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(speech)
-  until speech == speech.upcase
+  while speech != speech.upcase
     "HUH?! SPEAK UP, SONNY!"
   return
 end
